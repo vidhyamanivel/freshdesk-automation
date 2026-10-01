@@ -2,7 +2,7 @@ name: Reopen Freshdesk follow-up tickets
 
 on:
   schedule:
-    # 03:45 UTC = 09:15 AM IST, every day (including weekends)
+       # 03:45 UTC = 09:15 AM IST, every day (including weekends) - reactivated
     - cron: "45 3 * * *"
   workflow_dispatch: {}  # lets you click "Run workflow" in the Actions tab to test on demand
 
